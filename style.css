@@ -2,6 +2,11 @@ body {
     font-family: "Lato", sans-serif
 }
 
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
 .mySlides {
     display: none
 }
@@ -14,4 +19,11 @@ body {
     color: white;
     font-size: 75px;
     z-index: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-title  {
+    font-size: 50px;   
+    top: 25%;   
+  }
 }
